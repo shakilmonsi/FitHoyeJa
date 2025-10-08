@@ -1,0 +1,54 @@
+[33m89521e1[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mkamrul[m[33m)[m Merge pull request #10 from MTS-Services/kamrul
+[33mfc7a1b5[m git pull main
+[33mb7eb5a3[m Merge branch 'main' of https://github.com/MTS-Services/Skywalker into kamrul
+[33m96e51ec[m Make all sections responsive and add EN–AR translation (Header, Contact, About, Footer); setup theme color
+[33mfe3100f[m Merge pull request #9 from MTS-Services/mahfuz-ahmed
+[33m39641d3[m[33m ([m[1;31morigin/mahfuz-ahmed[m[33m)[m Merge branch 'main' into mahfuz-ahmed
+[33mbc2d9e8[m search functionality added
+[33m5d18eaa[m search done
+[33m3b86cc8[m Merge pull request #7 from MTS-Services/mahfuz-ahmed
+[33ma801f70[m update codes.
+[33m56a73a0[m responsive done
+[33maeb183c[m all page done
+[33m4743307[m Update Modal.jsx
+[33ma35a181[m Make Modal
+[33me1a8a1e[m on working
+[33mf8892c4[m Merge pull request #4 from MTS-Services/kamrul
+[33m8a6a5a3[m Merge branch 'main' of https://github.com/MTS-Services/Skywalker into kamrul
+[33m4f8a758[m (Fix): Resolve merge conflicts and implement English–Arabic translation in header.
+[33mc13bc81[m remove extra copy file
+[33m00fcf45[m Merge branch 'main' of https://github.com/MTS-Services/Skywalker into kamrul
+[33mace329b[m Merge pull request #6 from MTS-Services/mahfuz-ahmed
+[33mb294688[m on working
+[33m138ca72[m (fix): header make fully responsive
+[33meae16bb[m Hero section done
+[33m70c17eb[m clean translation file
+[33me27e1fb[m Merge pull request #5 from MTS-Services/Language Switcher update
+[33mc4711d1[m Merge branch 'language-switch' of https://github.com/MTS-Services/Skywalker into mahfuz-ahmed
+[33m1705224[m uninstall react i18
+[33mfd1b494[m[33m ([m[1;31morigin/language-switch[m[33m)[m updated
+[33mfaa888b[m on working
+[33m206f40c[m (Fix): worked on Header
+[33mf48cc6a[m test
+[33ma5747be[m Merge branch 'main' into mahfuz-ahmed
+[33ma292602[m[33m ([m[1;32mmain[m[33m)[m (Fix): Fix Responsive Header
+[33m056df12[m update
+[33m830007c[m Merge pull request #3 from MTS-Services/kamrul
+[33m458f383[m Merge branch 'main' into kamrul
+[33m5eae808[m Update Header.jsx
+[33md09564e[m Merge pull request #2 from MTS-Services/kamrul
+[33m8abd0d8[m Merge branch 'main' into kamrul
+[33mde64a77[m (Fix): Worked on Header
+[33m10e1e1a[m Merge pull request #1 from MTS-Services/munshi
+[33mee2ea59[m added register and login design
+[33mc958283[m added register and login design
+[33mae37f94[m first commit
+[33meca07ac[m first commit
+[33m38a4084[m first commit
+[33ma8b0114[m first commit
+[33m5019767[m add
+[33ma7778b0[m fixed issues
+[33m6901676[m (Fix): Organized README.md
+[33m965014b[m added fav icon and Organized README.md
+[33ma55dea7[m first commit
+[33mbfd59ae[m Initial Commit

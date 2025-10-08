@@ -1,0 +1,85 @@
+[
+  {
+    "id": "rent",
+    "title": "Properties for rent",
+    "properties": [
+      {
+        "id": "apartment",
+        "name": "Apartments for rent"
+      },
+      {
+        "id": "house",
+        "name": "Houses for rent"
+      },
+      {
+        "id": "commercial",
+        "name": "Commercials for rent"
+      },
+      {
+        "id": "building",
+        "name": "Buildings for rent"
+      },
+      {
+        "id": "chalet",
+        "name": "Chalets for rent"
+      },
+      {
+        "id": "farm",
+        "name": "Farms for rent"
+      },
+      {
+        "id": "land",
+        "name": "Lands for rent"
+      }
+    ]
+  },
+  {
+    "id": "sale",
+    "title": "Properties for sale",
+    "properties": [
+      {
+        "id": "house",
+        "name": "Houses for sale"
+      },
+      {
+        "id": "land",
+        "name": "Lands for sale"
+      },
+      {
+        "id": "building",
+        "name": "Buildings for sale"
+      },
+      {
+        "id": "apartment",
+        "name": "Apartments for rent"
+      },
+      {
+        "id": "chalet",
+        "name": "Chalets for sale"
+      },
+      {
+        "id": "commercial",
+        "name": "Commercials for sale"
+      },
+      {
+        "id": "farm",
+        "name": "Farms for sale"
+      }
+    ]
+  },
+
+  {
+    "id": "exchange",
+    "title": "Properties for exchange",
+    "properties": [
+      {
+        "id": "land",
+        "name": "Lands for exchange"
+      },
+      {
+        "id": "house",
+        "name": "Houses for exchange"
+      }
+    ]
+  }
+]

@@ -1,0 +1,20 @@
+[
+  {
+    "name": "free",
+    "credits": 0,
+    "description": "Get started with basic credits.",
+    "price": 0
+  },
+  {
+    "name": "regular",
+    "credits": 0,
+    "description": "More credits for everyday use.",
+    "price": 5
+  },
+  {
+    "name": "super",
+    "credits": 0,
+    "description": "Our premium package with generous credits.",
+    "price": 10
+  }
+]

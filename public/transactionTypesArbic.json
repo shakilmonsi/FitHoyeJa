@@ -1,0 +1,5 @@
+[
+  { "id": "rent", "name": "للإيجار" },
+  { "id": "sale", "name": "للبيع" },
+  { "id": "exchange", "name": "للبدل" }
+]

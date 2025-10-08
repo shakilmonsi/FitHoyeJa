@@ -1,0 +1,10 @@
+[
+  { "id": "Properties", "name": "Properties" },
+  { "id": "apartment", "name": "Apartment" },
+  { "id": "house", "name": "House" },
+  { "id": "land", "name": "Land" },
+  { "id": "building", "name": "Building" },
+  { "id": "chalet", "name": "Chalet" },
+  { "id": "farm", "name": "Farm" },
+  { "id": "commercial", "name": "Commercial" }
+]

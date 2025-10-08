@@ -1,0 +1,24 @@
+[
+    {
+        "id" : "1",
+        "name" : "name",
+        "ads" : [
+            {
+                "id" : 1,
+                "name" : "name"
+            },
+            {
+                "id" : 2,
+                "name" : "name"
+            },
+            {
+                "id" : 3,
+                "name" : "name"
+            },
+            {
+                "id" : 4,
+                "name" : "name"
+            }
+        ]
+    }
+]

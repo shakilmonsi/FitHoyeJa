@@ -1,0 +1,331 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Noto+Kufi+Arabic:wght@100..900&display=swap");
+@import "tailwindcss";
+
+[dir="rtl"] {
+  font-family: "Noto Sans Arabic", Arial, sans-serif;
+}
+
+[dir="ltr"] {
+  font-family: "Inter", system-ui, sans-serif;
+}
+
+/* Custom RTL utilities */
+.rtl {
+  direction: rtl;
+}
+
+.ltr {
+  direction: ltr;
+}
+
+/* Ensure proper text alignment for RTL */
+[dir="rtl"] .text-left {
+  text-align: right;
+}
+
+[dir="rtl"] .text-right {
+  text-align: left;
+}
+
+/* Fix space-x-reverse for RTL */
+[dir="rtl"] .space-x-reverse > :not([hidden]) ~ :not([hidden]) {
+  --tw-space-x-reverse: 1;
+}
+
+:root {
+  --site-font-family: theme(--font-open-sans);
+}
+
+/* When the HTML element has 'dir="rtl"', override the variable to Tajawal */
+html[dir="rtl"] {
+  --site-font-family: theme(--font-tajawal);
+}
+
+/* Smooth transitions */
+* {
+  transition: all 0.2s ease-in-out;
+  font-family: var(--site-font-family) !important;
+}
+
+@theme {
+   /* Font Families */
+   --font-tajawal: "Noto Kufi Arabic", sans-serif; /* Changed from Tajawal to Noto Kufi Arabic */
+   --font-open-sans: "Open Sans", sans-serif;
+
+  /* Core Colors */
+  --color-primary-50: #a7e1f9;
+  --color-primary-100: #89d8f7;
+  --color-primary-200: #6bcff6;
+  --color-primary-300: #4cc5f4;
+  --color-primary-400: #2ecbf2;
+  --color-primary-500: #1eaeed;
+  /* Base Color */
+  --color-primary-600: #1a96d0;
+  --color-primary-700: #1781b3;
+  --color-primary-800: #136b96;
+  --color-primary-900: #10557a;
+  --color-black: #000;
+  --color-white: #fff;
+  --color-header: #000;
+
+  /* Text Colors */
+  --text-color-heading: #000;
+  --text-color-title: #000;
+  --text-color-paragraph: #4a5565;
+
+  /* Font Sizes */
+  --text-xs: 12px;
+  --text-sm: 14px;
+  --text-base: 16px;
+  --text-md: 15px;
+  --text-lg: 18px;
+  --text-xl: 20px;
+  --text-2xl: 24px;
+  --text-3xl: 30px;
+  --text-4xl: 36px;
+  --text-5xl: 48px;
+  --text-6xl: 60px;
+  --text-7xl: 72px;
+  --text-8xl: 96px;
+  --text-9xl: 128px;
+
+  /* Font Weights */
+  --font-thin: 100;
+  --font-extralight: 200;
+  --font-light: 300;
+  --font-normal: 400;
+  --font-medium: 500;
+  --font-semibold: 600;
+  --font-bold: 700;
+  --font-extrabold: 800;
+  --font-black: 900;
+
+  --color-descripton: #556885;
+  --color-adspart: #2e6290;
+  --color-bgcolor-900: #26b0e5;
+
+  --shadow-card-shadow:
+    0 0 2px 0 rgba(37, 42, 49, 0.16), 0 1px 4px 0 rgba(37, 42, 49, 0.12);
+
+  --breakpoint-xs: 480px;
+}
+
+@layer base {
+  /* body {
+    @apply font-open-sans text-base;
+  } */
+  /* 
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: var(--font-open-sans);
+  } */
+
+  h1 {
+    @apply text-2xl font-bold;
+    font-weight: 700;
+    line-height: 34px;
+  }
+
+  h2 {
+    @apply text-md font-bold;
+    font-weight: 700;
+    line-height: 24px;
+  }
+
+  h3 {
+    @apply text-sm font-semibold;
+    font-weight: 700;
+    line-height: 24px;
+  }
+
+  h4 {
+    @apply text-xs font-normal;
+    font-weight: 400;
+    line-height: 23px;
+  }
+
+  p {
+    @apply text-sm font-normal;
+    font-weight: 400;
+    line-height: 24px;
+    color: var(--text-color-pargraph);
+  }
+
+  li {
+    font-size: var(--text-sm);
+    font-weight: var(--font-normal);
+    color: var(--text-color-pargraph);
+  }
+
+  ul {
+    font-size: var(--text-sm);
+    font-weight: var(--font-normal);
+    color: var(--text-color-pargraph);
+  }
+
+  a {
+    cursor: pointer;
+    transition: color 0.2s ease-in-out;
+  }
+
+  a:hover {
+    color: var(--color-cta-active);
+  }
+
+  button {
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+  }
+
+  button:hover {
+    cursor: pointer;
+  }
+}
+
+/* Global scrollbar styles (works on Firefox) */
+/* * {
+  scrollbar-width: thin;
+  scrollbar-color: var(--color-primary-500) var(--color-primary-50);
+} */
+
+/* WebKit browsers (Chrome, Safari, Edge) */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--color-primary-50);
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: var(--color-primary-500);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: var(--color-primary-600);
+}
+
+::-webkit-scrollbar-thumb:active {
+  background-color: var(--color-primary-700);
+}
+
+::-webkit-scrollbar-corner {
+  background: var(--color-primary-50);
+}
+
+/* For disabled state if needed */
+::-webkit-scrollbar-thumb:disabled {
+  background-color: var(--color-primary-800);
+}
+
+/* Custom scrollbar class for specific elements */
+.custom-scrollbar {
+  scrollbar-width: thin;
+  scrollbar-color: var(--color-primary-500) var(--color-primary-50);
+}
+
+.custom-scrollbar::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-track {
+  background: var(--color-primary-50);
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background-color: var(--color-primary-500);
+  border-radius: 4px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb:hover {
+  background-color: var(--color-primary-600);
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb:active {
+  background-color: var(--color-primary-700);
+}
+
+.custom-scrollbar::-webkit-scrollbar-corner {
+  background: var(--color-primary-50);
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb:disabled {
+  background-color: var(--color-primary-800);
+}
+
+/* Add just this part for the ripple effect */
+@layer components {
+  .ripple {
+    position: absolute;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.6);
+    transform: scale(0);
+    animation: ripple-effect 0.6s linear;
+  }
+}
+
+@keyframes ripple-effect {
+  to {
+    transform: scale(4);
+    opacity: 0;
+  }
+}
+/* // code by shakil munshi */
+html {
+  scroll-behavior: smooth;
+}
+
+@layer base {
+  /* ... your existing base styles ... */
+
+  /* Increase font size for RTL */
+  [dir="rtl"] h1 {
+    @apply text-2xl font-bold;
+    font-weight: 700;
+    line-height: 34px;
+  }
+
+  [dir="rtl"] h2 {
+    @apply text-md font-bold;
+    font-weight: 700;
+    line-height: 24px;
+  }
+
+  [dir="rtl"] h3 {
+    @apply text-sm font-semibold;
+    font-weight: 700;
+    line-height: 24px;
+  }
+
+  [dir="rtl"] h4 {
+    @apply text-xs font-normal;
+    font-weight: 400;
+    line-height: 23px;
+  }
+
+  [dir="rtl"] p {
+    @apply text-sm font-normal;
+    font-weight: 400;
+    line-height: 24px;
+    color: var(--text-color-pargraph);
+  }
+
+  [dir="rtl"] li {
+    font-size: var(--text-sm);
+    font-weight: var(--font-normal);
+    color: var(--text-color-pargraph);
+  }
+
+  [dir="rtl"] ul {
+    font-size: var(--text-sm);
+    font-weight: var(--font-normal);
+    color: var(--text-color-pargraph);
+  }
+}

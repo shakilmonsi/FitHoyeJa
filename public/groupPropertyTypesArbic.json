@@ -1,0 +1,84 @@
+[
+  {
+    "id": "rent",
+    "title": "عقارات للايجار",
+    "properties": [
+      {
+        "id": "apartment",
+        "name": "شقق للايجار"
+      },
+      {
+        "id": "house",
+        "name": "منازل للايجار"
+      },
+      {
+        "id": "commercial",
+        "name": "محلات تجارية للايجار"
+      },
+      {
+        "id": "building",
+        "name": "مباني للايجار"
+      },
+      {
+        "id": "chalet",
+        "name": "شاليهات للايجار"
+      },
+      {
+        "id": "farm",
+        "name": "مزارع للايجار"
+      },
+      {
+        "id": "land",
+        "name": "أراضي للايجار"
+      }
+    ]
+  },
+  {
+    "id": "sale",
+    "title": "عقارات للبيع",
+    "properties": [
+      {
+        "id": "house",
+        "name": "منازل للبيع"
+      },
+      {
+        "id": "land",
+        "name": "أراضي للبيع"
+      },
+      {
+        "id": "building",
+        "name": "مباني للبيع"
+      },
+      {
+        "id": "apartment",
+        "name": "شقق للبيع"
+      },
+      {
+        "id": "chalet",
+        "name": "شاليهات للبيع"
+      },
+      {
+        "id": "commercial",
+        "name": "محلات تجارية للبيع"
+      },
+      {
+        "id": "farm",
+        "name": "مزارع للبيع"
+      }
+    ]
+  },
+  {
+    "id": "exchange",
+    "title": "عقارات للتبادل",
+    "properties": [
+      {
+        "id": "land",
+        "name": "أراضي للتبادل"
+      },
+      {
+        "id": "house",
+        "name": "منازل للتبادل"
+      }
+    ]
+  }
+]

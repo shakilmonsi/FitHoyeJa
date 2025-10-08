@@ -1,0 +1,39 @@
+[
+  {
+    "id": 1,
+    "name": "East Real Estate Company",
+    "ads": "3",
+    "image": "/assets/images/cart1.png",
+    "description": "Aman Real Estate Brokerage CompanyAman any",
+    "logo": "🏢",
+    "phone": "90079738"
+  },
+  {
+    "id": 2,
+    "name": "Aman Real Estate Brokerage  Company",
+    "ads": "19",
+    "image": "/assets/images/cart2.png",
+    "description": "Aman Real Estate Aman  Real Estate Brokerage CompanyAman any  Brokerage CompanyAman anyReal Estate Brokerage CompanyAman anyAman Real Estate Brokerage CompanyAman anyAman Real Estate Brokerage CompanyAman anyAman Real Estate Brokerage CompanyAman anyAman Real Estate Brokerage CompanyAman anyAman Real Estate Brokerage CompanyAman anyAman Real Estate Brokerage CompanyAman anyAman Real Estate Brokerage CompanyAman anyAman Real Estate Brokerage CompanyAman anyAman Real Estate Brokerage CompanyAman anyAman Real Estate Brokerage CompanyAman anyAman Real Estate Brokerage CompanyAman anyAman ",
+    "logo": "🏠",
+    "phone": "90079738"
+  },
+  {
+    "id": 3,
+    "name": "Real Estate Office",
+    "ads": "19",
+    "image": "/assets/images/cart2.png",
+
+    "description": "Aman Real Estate Brokerage CompanyAman any",
+    "logo": "🏠",
+    "phone": "90079738"
+  },
+  {
+    "id": 4,
+    "name": "Real Estate Distance Company",
+    "ads": "19",
+    "description": "Aman Real Estate Brokerage CompanyAman any",
+    "logo": "🏠",
+    "image": "/assets/images/cart1.png",
+    "phone": "90079738"
+  }
+]

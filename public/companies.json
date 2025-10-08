@@ -1,0 +1,184 @@
+[
+  {
+    "id": "aman_real_estate",
+    "name": "Aman Real Estate Brokerage Company",
+    "logo_url": "/assets/images/cart2.png",
+    "social_media": {
+      "whatsapp": "6561234567",
+      "instagram": "https://www.instagram.com/amanrealestate_kw/"
+    },
+    "description": "Aman Real Estate Brokerage Company with a legacy of trust and excellence in Kuwaiti real estate. We offer a wide range of properties for rent, sale, and exchange, ensuring top-notch services for our clients.",
+    "ads": [
+      {
+        "id": 1,
+        "title": "Spacious Apartment in Hawally",
+        "kd": "950",
+        "postCreateAt": "2025-06-30",
+        "description": "A modern 3-bedroom apartment with 2 bathrooms, a large living area, and a fully equipped kitchen. Located near shopping centers and schools.",
+        "whatsapp": "234567",
+        "views": 12450,
+        "images": ["/assets/images/cart2.png", "/assets/ads/apt2.jpg"],
+        "slug": "spacious-apartment-in-hawally",
+        "transactionType": "rent",
+        "propertyType": "apartment",
+        "region": "hawally",
+        "isSuper": true
+      },
+      {
+        "id": 2,
+        "title": "Luxury Villa for Sale in Salwa",
+        "kd": "450,000",
+        "postCreateAt": "2025-06-29",
+        "description": "An exquisite 5-bedroom villa with private pool, landscaped garden, and high-end finishes. Ideal for a large family seeking comfort and luxury.",
+        "whatsapp": "234568",
+        "views": 2250,
+        "images": ["/assets/images/cart2.png", "/assets/images/cart2.png"],
+        "slug": "luxury-villa-in-salwa",
+        "transactionType": "sale",
+        "propertyType": "house",
+        "region": "salwa",
+        "isSuper": true
+      },
+      {
+        "id": 8,
+        "title": "Farm for Rent in Wafra",
+        "kd": "1,000",
+        "postCreateAt": "2025-06-30",
+        "description": "Large farmhouse with vast agricultural land, perfect for farming or a quiet retreat. Fully equipped.",
+        "whatsapp": "234579",
+        "views": 55225,
+        "images": ["/assets/images/cart2.png"],
+        "slug": "farmhouse-for-rent-in-wafra",
+        "transactionType": "rent",
+        "propertyType": "farm",
+        "region": "hawally",
+        "isSuper": false
+      }
+    ]
+  },
+  {
+    "id": "east_real_estate",
+    "name": "East Real Estate Company",
+    "logo_url": ["/assets/images/cart1.png"],
+    "social_media": {
+      "whatsapp": "96561234569",
+      "instagram": ""
+    },
+    "description": "East Real Estate Company is dedicated to providing affordable and quality housing solutions across Kuwait. Our portfolio includes a variety of apartments and commercial spaces.",
+    "ads": [
+      {
+        "id": 3,
+        "title": "Commercial Shop for Rent in Salmiya",
+        "kd": "700",
+        "postCreateAt": "2025-06-29",
+        "description": "Prime commercial shop located in a bustling area of Salmiya, suitable for retail or small businesses. High foot traffic.",
+        "whatsapp": "61234569",
+        "views": 8250,
+        "images": ["/assets/images/cart1.png"],
+        "slug": "commercial-shop-in-salmiya",
+        "transactionType": "rent",
+        "propertyType": "building",
+        "region": "salmiya",
+        "isSuper": false
+      }
+    ]
+  },
+  {
+    "id": "real_estate_office",
+    "name": "Real Estate Office",
+    "logo_url": "/assets/images/cart9.jpg",
+    "social_media": {
+      "whatsapp": "96561234570",
+      "facebook": "/assets/images/cart1.png"
+    },
+    "description": "Your trusted partner for all real estate needs. We provide comprehensive services for buying, selling, and renting properties.",
+    "ads": [
+      {
+        "id": 4,
+        "title": "Studio for Exchange in Jabriya",
+        "kd": "250",
+        "postCreateAt": "2025-06-30",
+        "description": "Cozy studio apartment, perfect for singles. Includes a compact kitchen and private bathroom. Looking to exchange for a 1-bedroom.",
+        "whatsapp": "234570",
+        "views": 2595,
+        "images": ["/assets/images/cart9.jpg"],
+        "slug": "studio-for-exchange-in-jabriya",
+        "transactionType": "exchange",
+        "propertyType": "apartment",
+        "region": "jabriya",
+        "isSuper": false
+      },
+      {
+        "id": 6,
+        "title": "Modern House for Rent in Jabriya",
+        "kd": "1,800",
+        "postCreateAt": "2025-06-29",
+        "description": "Stylish 4-bedroom house with contemporary design and access to community amenities. Family-friendly neighborhood in Jabriya.",
+        "whatsapp": "234572",
+        "views": 12580,
+        "images": ["/assets/images/cart9.jpg"],
+        "slug": "modern-house-in-jabriya",
+        "transactionType": "rent",
+        "propertyType": "house",
+        "region": "jabriya",
+        "isSuper": false
+      }
+    ]
+  },
+  {
+    "id": "real_estate_distance",
+    "name": "Real Estate Distance Company",
+    "logo_url": "/assets/images/cart8.jpg",
+    "social_media": {
+      "whatsapp": "96561234571"
+    },
+    "description": "Connecting you with properties across Kuwait, no matter the distance. Specializing in land sales and large-scale developments.",
+    "ads": [
+      {
+        "id": 5,
+        "title": "Land for Sale in Hawally",
+        "kd": "1,200,000",
+        "postCreateAt": "2025-06-30",
+        "description": "Large plot of land available for immediate development. Great investment opportunity in a developing area of Hawally.",
+        "whatsapp": "234571",
+        "views": 2245,
+        "images": ["/assets/images/cart8.jpg"],
+        "slug": "land-for-sale-in-hawally",
+        "transactionType": "sale",
+        "propertyType": "land",
+        "region": "hawally",
+        "isSuper": true
+      },
+      {
+        "id": 7,
+        "title": "Building for Sale in Salmiya",
+        "kd": "2,500,000",
+        "postCreateAt": "2025-06-29",
+        "description": "Entire residential building for sale in a prime Salmiya location. Includes 10 apartments and ground floor parking. Excellent for investors.",
+        "whatsapp": "234573",
+        "views": 12500,
+        "images": ["/assets/images/cart8.jpg", "/assets/images/cart8.jpg"],
+        "slug": "building-for-sale-in-salmiya",
+        "transactionType": "sale",
+        "propertyType": "building",
+        "region": "salmiya",
+        "isSuper": true
+      },
+      {
+        "id": 9,
+        "title": "Chalet for Exchange in Khiran",
+        "kd": "600",
+        "postCreateAt": "2025-06-30",
+        "description": "Beachfront chalet with direct access to the sea, ideal for weekend getaways. Willing to exchange for a city apartment.",
+        "whatsapp": "234580",
+        "views": 2588,
+        "images": ["/assets/images/cart8.jpg", "/assets/images/cart8.jpg"],
+        "slug": "chalet-in-khiran-resort",
+        "transactionType": "exchange",
+        "propertyType": "chalet",
+        "region": "salwa",
+        "isSuper": true
+      }
+    ]
+  }
+]

@@ -1,0 +1,78 @@
+{
+  "header": {
+    "propertyFinder": "Property Finder",
+    "home": "Home",
+    "about": "About",
+    "agents": "Agents",
+    "addFreeAd": "Add Free Ad"
+  },
+  "home": {
+    "heroTitle": "Find Your Dream Property in Kuwait",
+    "heroSubtitle": "Discover the best real estate deals with our expert agents and comprehensive property listings.",
+    "browseAgents": "Browse Agents",
+    "learnMore": "Learn More",
+    "whyChooseUs": "Why Choose Us",
+    "features": {
+      "findProperties": {
+        "title": "Find Properties",
+        "description": "Browse through thousands of verified properties"
+      },
+      "expertAgents": {
+        "title": "Expert Agents",
+        "description": "Work with certified real estate professionals"
+      },
+      "bestDeals": {
+        "title": "Best Deals",
+        "description": "Get the best prices in the market"
+      }
+    },
+    "stats": {
+      "properties": "Properties",
+      "agents": "Agents",
+      "happyClients": "Happy Clients"
+    }
+  },
+  "about": {
+    "title": "About Us",
+    "description": "Bo Shamlan is Kuwait's leading real estate platform, connecting property seekers with trusted agents and premium listings.",
+    "mission": {
+      "title": "Our Mission",
+      "description": "To revolutionize the real estate experience in Kuwait by providing transparent, efficient, and reliable property services."
+    },
+    "vision": {
+      "title": "Our Vision",
+      "description": "To become the most trusted real estate platform in the Middle East, empowering both buyers and sellers."
+    },
+    "contact": {
+      "title": "Contact Information",
+      "address": "Kuwait City, Kuwait",
+      "phone": " 1234 5678",
+      "email": "info@Mr Aqar.com"
+    }
+  },
+
+  "agents": {
+    "title": "Real Estate Agents List in Kuwait",
+    "count": "({{count}} Agents)",
+    "ads": "Ads",
+    "phone": "Phone",
+    "companies": {
+      "aman": {
+        "name": "Aman Real Estate Brokerage Company",
+        "description": "Aman Real Estate Brokerage Company, Chamber of Commerce and Industry - First Floor. Sale - purchase - rent and leasing - management of others'..."
+      },
+      "office": {
+        "name": "Real Estate Office",
+        "description": "Al-Baraza Company - Professional real estate services"
+      },
+      "distance": {
+        "name": "Real Estate Distance Company",
+        "description": "Specialized in property management and real estate consulting"
+      },
+      "agency": {
+        "name": "Real Estate Agency",
+        "description": "Full-service real estate agency with years of experience"
+      }
+    }
+  }
+}
